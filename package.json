@@ -1,0 +1,25 @@
+{
+  "name": "seaturtles",
+  "version": "1.0.0",
+  "description": "Hello Everyone\r This is seaturtles' team repository. We are trying to solve the problem how to get information for good items.\r We think a good is more important than the best because the best choice needs to a huge intention and time.\r But a good choice is not just avoid to a bad choice but it should save your time.\r A good choice is the best to your safety, convenient and The most precious value - time.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taewo/seaturtles.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taewo/seaturtles/issues"
+  },
+  "homepage": "https://github.com/taewo/seaturtles#readme",
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "react": "^15.3.2",
+    "underscore": "^1.8.3"
+  }
+}
