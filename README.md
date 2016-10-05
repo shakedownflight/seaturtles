@@ -10,4 +10,4 @@ And in Korea, it's very hard to find appropriate standard of what SHOULD NOT BE 
 So we determine to make information application for people and ourselves.
 
 We hope it can be made until your patience is disappear.
-So....See you soon!
+So....See you soon
