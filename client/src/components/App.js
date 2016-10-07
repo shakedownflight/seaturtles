@@ -1,8 +1,12 @@
 import React from 'react';
 import Header from './Header';
-import List from './List';
 import Contents from './Contents';
-import Nav from './Nav';
+import Navi from './Navi';
+import Bootstrap from 'bootstrap/dist/css/bootstrap.css';
+import { Nav } from 'react-bootstrap';
+import { Navbar } from 'react-bootstrap';
+import { NavItem } from 'react-bootstrap';
+
 
 class App extends React.Component {
     constructor(props) {   
@@ -15,10 +19,21 @@ class App extends React.Component {
     render(){ 
         return (
           <div>
-            <Header source = {this.state.head} /> 
-            <List/>
-            <Contents source = {this.state.list}/>
-            <Nav/>
+            <div>
+              <Header source = {this.state.head} /> 
+            </div>
+            <Nav justified>
+              <NavItem href="">엄빠순</NavItem>
+              <NavItem href="">Link</NavItem>
+              <NavItem href="">Link</NavItem>
+              <NavItem href="">가격순</NavItem>
+            </Nav>
+            <div>
+              <Contents source = {this.state.list}/>
+            </div>
+            <div>
+                <Navi/>
+             </div>
           </div>
         );
     }
