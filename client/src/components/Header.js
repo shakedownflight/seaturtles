@@ -6,12 +6,9 @@ class Header extends React.Component {
     //   this.connectSearch = this.connectSearch.bind(this); 
     }
     render(){
+        
         return  (
-        <div className="btn-group">
-          <button type="button" className="btn btn-default">Left</button>
-          <button type="button" className="btn btn-default">Middle</button>
-          <button type="button" className="btn btn-default">Right</button>
-          <button type="button" className="btn btn-default">Right2</button>
+        <div>
         </div>
         );
     }
