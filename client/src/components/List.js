@@ -1,4 +1,6 @@
 import React from 'react';
+import { Nav } from 'react-bootstrap';
+import { NavItem } from 'react-bootstrap';
 
 class List extends React.Component {
     constructor(props) {
@@ -6,13 +8,15 @@ class List extends React.Component {
     //   this.connectSearch = this.connectSearch.bind(this); 
     }
     render(){
-        return  (
-        <div className="btn-group">
-          <button type="button" className="btn btn-default">Left</button>
-          <button type="button" className="btn btn-default">Middle</button>
-          <button type="button" className="btn btn-default">Right</button>
-          <button type="button" className="btn btn-default">Right2</button>
-        </div>
+        return (
+          <div>
+           <Nav justified>
+            <NavItem href="">엄빠순</NavItem>
+            <NavItem href="">List</NavItem>
+            <NavItem href="">list</NavItem>
+            <NavItem href="">가격순</NavItem>
+           </Nav>
+          </div>
         );
     }
 };
