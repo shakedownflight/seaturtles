@@ -1,4 +1,5 @@
 import React from 'react';
+import { Navbar } from 'react-bootstrap';
 
 class Header extends React.Component {
     constructor(props) {
@@ -9,6 +10,7 @@ class Header extends React.Component {
         
         return  (
         <div>
+          <Navbar fixedBottom> 엄빠주의 </Navbar>
         </div>
         );
     }
