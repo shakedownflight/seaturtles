@@ -1,4 +1,5 @@
 import React from 'react';
+import { Navbar } from 'react-bootstrap';
 
 class Header extends React.Component {
     constructor(props) {
@@ -6,9 +7,9 @@ class Header extends React.Component {
     //   this.connectSearch = this.connectSearch.bind(this); 
     }
     render(){
-        
         return  (
         <div>
+          <Navbar> 엄빠주의 </Navbar>
         </div>
         );
     }
