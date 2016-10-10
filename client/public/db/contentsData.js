@@ -1,7 +1,7 @@
 window.contentsData = [
 	{
 		name: "crunky",
-		photo:"/db/img/crunky.jpg",
+		photo:"/public/db/img/crunky.jpg",
 		good:"kakao 10%",
 		bad:"chemical 10%",
 		price:"1000원",
@@ -9,7 +9,7 @@ window.contentsData = [
 	},
 	{
 		name: "dars",
-		photo: "/db/img/dars.jpg",
+		photo: "/public/db/img/dars.jpg",
 		good:"kakao 15%",
 		bad:"chmicla 9%",
 		price:"1000원",
@@ -17,7 +17,7 @@ window.contentsData = [
 	},
 	{
 		name: "dove",
-		photo:  "/db/img/dove.jpg",
+		photo:  "/public/db/img/dove.jpg",
 		good:"kakao 20%",
 		bad:"chmical 12%",
 		price:"1500원",
@@ -25,7 +25,7 @@ window.contentsData = [
 	},
 	{
 		name: "ghana",
-		photo: "/db/img/ghana.jpg",
+		photo: "/public/db/img/ghana.jpg",
 		good:"kakao 5%",
 		bad:"chemical 20%",
 		price:"700원",
@@ -33,7 +33,7 @@ window.contentsData = [
 	},
 	{
 		name: "hershey",
-		photo: "/db/img/hershey.jpg",
+		photo: "/public/db/img/hershey.jpg",
 		good:"kakao 13%",
 		bad:"chemical 12%",
 		price:"2000원",
@@ -41,7 +41,7 @@ window.contentsData = [
 	},
 	{
 		name:"kinder",
-		photo: "/db/img/kinder.jpg",
+		photo: "/public/db/img/kinder.jpg",
 		good:"kakao 8%",
 		bad:"chemical 0%",
 		price:"1700원",
@@ -49,7 +49,7 @@ window.contentsData = [
 	},
 	{
 		name: "kitkat",
-		photo: "/db/img/kitkat.jpg",
+		photo: "/public/db/img/kitkat.jpg",
 		good:"kakao 4%",
 		bad:"chemical 12%",
 		price:"800원",
@@ -57,7 +57,7 @@ window.contentsData = [
 	},
 	{
 		name: "loacker",
-		photo: "/db/img/loacker.jpg",
+		photo: "/public/db/img/loacker.jpg",
 		good:"kakao 20%",
 		bad:"chmical 10%",
 		price:"1200원",
@@ -65,7 +65,7 @@ window.contentsData = [
 	},
 	{
 		name: "nobrand",
-		photo: "/db/img/nobrand.jpg",
+		photo: "/public/db/img/nobrand.jpg",
 		good:"kakao 30%",
 		bad:"chemical 0%",
 		price:"1000원",
@@ -73,7 +73,7 @@ window.contentsData = [
 	},
 	{
 		name: "twix",
-		photo: "/db/img/twix.jpg",
+		photo: "/public/db/img/twix.jpg",
 		good:"kakao 15%",
 		bad:"chemical 10%",
 		price:"1500원",
@@ -81,7 +81,7 @@ window.contentsData = [
 	},
 	{
 		name: "crunky",
-		photo:"/db/img/crunky.jpg",
+		photo:"/public/db/img/crunky.jpg",
 		good:"kakao 10%",
 		bad:"chemical 10%",
 		price:"1000원",
@@ -89,7 +89,7 @@ window.contentsData = [
 	},
 	{
 		name: "dars",
-		photo: "/db/img/dars.jpg",
+		photo: "/public/db/img/dars.jpg",
 		good:"kakao 15%",
 		bad:"chmicla 9%",
 		price:"1000원",
@@ -97,7 +97,7 @@ window.contentsData = [
 	},
 	{
 		name: "dove",
-		photo:  "/db/img/dove.jpg",
+		photo:  "/public/db/img/dove.jpg",
 		good:"kakao 20%",
 		bad:"chmical 12%",
 		price:"1500원",
@@ -105,7 +105,7 @@ window.contentsData = [
 	},
 	{
 		name: "ghana",
-		photo: "/db/img/ghana.jpg",
+		photo: "/public/db/img/ghana.jpg",
 		good:"kakao 5%",
 		bad:"chemical 20%",
 		price:"700원",
@@ -113,7 +113,7 @@ window.contentsData = [
 	},
 	{
 		name: "hershey",
-		photo: "/db/img/hershey.jpg",
+		photo: "/public/db/img/hershey.jpg",
 		good:"kakao 13%",
 		bad:"chemical 12%",
 		price:"2000원",
@@ -121,7 +121,7 @@ window.contentsData = [
 	},
 	{
 		name:"kinder",
-		photo: "/db/img/kinder.jpg",
+		photo: "/public/db/img/kinder.jpg",
 		good:"kakao 8%",
 		bad:"chemical 0%",
 		price:"1700원",
@@ -129,7 +129,7 @@ window.contentsData = [
 	},
 	{
 		name: "kitkat",
-		photo: "/db/img/kitkat.jpg",
+		photo: "/public/db/img/kitkat.jpg",
 		good:"kakao 4%",
 		bad:"chemical 12%",
 		price:"800원",
@@ -137,7 +137,7 @@ window.contentsData = [
 	},
 	{
 		name: "loacker",
-		photo: "/db/img/loacker.jpg",
+		photo: "/public/db/img/loacker.jpg",
 		good:"kakao 20%",
 		bad:"chmical 10%",
 		price:"1200원",
@@ -145,7 +145,7 @@ window.contentsData = [
 	},
 	{
 		name: "nobrand",
-		photo: "/db/img/nobrand.jpg",
+		photo: "/public/db/img/nobrand.jpg",
 		good:"kakao 30%",
 		bad:"chemical 0%",
 		price:"1000원",
@@ -153,7 +153,7 @@ window.contentsData = [
 	},
 	{
 		name: "twix",
-		photo: "/db/img/twix.jpg",
+		photo: "/public/db/img/twix.jpg",
 		good:"kakao 15%",
 		bad:"chemical 10%",
 		price:"1500원",
@@ -161,7 +161,7 @@ window.contentsData = [
 	},
 	{
 		name: "crunky",
-		photo:"/db/img/crunky.jpg",
+		photo:"/public/db/img/crunky.jpg",
 		good:"kakao 10%",
 		bad:"chemical 10%",
 		price:"1000원",
@@ -169,7 +169,7 @@ window.contentsData = [
 	},
 	{
 		name: "dars",
-		photo: "/db/img/dars.jpg",
+		photo: "/public/db/img/dars.jpg",
 		good:"kakao 15%",
 		bad:"chmicla 9%",
 		price:"1000원",
@@ -177,7 +177,7 @@ window.contentsData = [
 	},
 	{
 		name: "dove",
-		photo:  "/db/img/dove.jpg",
+		photo:  "/public/db/img/dove.jpg",
 		good:"kakao 20%",
 		bad:"chmical 12%",
 		price:"1500원",
@@ -185,7 +185,7 @@ window.contentsData = [
 	},
 	{
 		name: "ghana",
-		photo: "/db/img/ghana.jpg",
+		photo: "/public/db/img/ghana.jpg",
 		good:"kakao 5%",
 		bad:"chemical 20%",
 		price:"700원",
@@ -193,7 +193,7 @@ window.contentsData = [
 	},
 	{
 		name: "hershey",
-		photo: "/db/img/hershey.jpg",
+		photo: "/public/db/img/hershey.jpg",
 		good:"kakao 13%",
 		bad:"chemical 12%",
 		price:"2000원",
@@ -201,7 +201,7 @@ window.contentsData = [
 	},
 	{
 		name:"kinder",
-		photo: "/db/img/kinder.jpg",
+		photo: "/public/db/img/kinder.jpg",
 		good:"kakao 8%",
 		bad:"chemical 0%",
 		price:"1700원",
@@ -209,7 +209,7 @@ window.contentsData = [
 	},
 	{
 		name: "kitkat",
-		photo: "/db/img/kitkat.jpg",
+		photo: "/public/db/img/kitkat.jpg",
 		good:"kakao 4%",
 		bad:"chemical 12%",
 		price:"800원",
@@ -217,7 +217,7 @@ window.contentsData = [
 	},
 	{
 		name: "loacker",
-		photo: "/db/img/loacker.jpg",
+		photo: "/public/db/img/loacker.jpg",
 		good:"kakao 20%",
 		bad:"chmical 10%",
 		price:"1200원",
@@ -225,7 +225,7 @@ window.contentsData = [
 	},
 	{
 		name: "nobrand",
-		photo: "/db/img/nobrand.jpg",
+		photo: "/public/db/img/nobrand.jpg",
 		good:"kakao 30%",
 		bad:"chemical 0%",
 		price:"1000원",
@@ -233,7 +233,7 @@ window.contentsData = [
 	},
 	{
 		name: "twix",
-		photo: "/db/img/twix.jpg",
+		photo: "/public/db/img/twix.jpg",
 		good:"kakao 15%",
 		bad:"chemical 10%",
 		price:"1500원",
