@@ -7,10 +7,9 @@ class Header extends React.Component {
     //   this.connectSearch = this.connectSearch.bind(this); 
     }
     render(){
-        
         return  (
         <div>
-          <Navbar fixedBottom> 엄빠주의 </Navbar>
+          <Navbar> 엄빠주의 </Navbar>
         </div>
         );
     }

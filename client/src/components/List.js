@@ -6,19 +6,22 @@ class List extends React.Component {
     constructor(props) {
       super(props);
     //   this.connectSearch = this.connectSearch.bind(this); 
+      //this.changePosition = this.changePosition.bind(this);
+    }
+    changePosition(key){
+      console.log('click?')
+      this.props.onReorder(key);
     }
     render(){
         return (
-          <div>
-            <Navbar fixedTop >
+            <Navbar >
                <Nav >
-                  <NavItem href="">엄빠순</NavItem>
-                  <NavItem href="">List</NavItem>
-                  <NavItem href="">list</NavItem>
-                  <NavItem href="">가격순</NavItem>
+                  <NavItem href="" onClick = {this.changePosition.bind(this,'important')}>엄빠순</NavItem>
+                  <NavItem href="" onClick = {this.changePosition.bind(this,'important')}>List</NavItem>
+                  <NavItem href="" onClick = {this.changePosition.bind(this,'important')}>list</NavItem>
+                  <NavItem href="" onClick = {this.changePosition.bind(this,'price')}>가격순</NavItem>
                </Nav>
             </Navbar>
-          </div>
         );
     }
 };
