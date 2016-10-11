@@ -5,12 +5,11 @@ import { NavItem, Navbar } from 'react-bootstrap';
 class List extends React.Component {
     constructor(props) {
       super(props);
-    //   this.connectSearch = this.connectSearch.bind(this); 
-      //this.changePosition = this.changePosition.bind(this);
     }
     changePosition(key){
       console.log('click?')
       this.props.onReorder(key);
+      
     }
     render(){
         return (

@@ -11,9 +11,9 @@ class App extends React.Component {
    constructor(props) {   
       super(props);                //---> props를 React.Component에 전달한다.   
       this.state = {
-        list: window.contentsData // default Arr 임. 
+        head:window.headData,
+        list:window.contentsData // public/db/exampleData.js 
       }; 
-      
       this.handleReorder = this.handleReorder.bind(this);
       this.sortOn = this.sortOn.bind(this);
     }
