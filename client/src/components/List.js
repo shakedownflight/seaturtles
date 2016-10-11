@@ -9,6 +9,7 @@ class List extends React.Component {
     changePosition(key){
       console.log('click?')
       this.props.onReorder(key);
+      
     }
     render(){
         return (

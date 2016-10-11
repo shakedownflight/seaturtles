@@ -14,7 +14,6 @@ class App extends React.Component {
         head:window.headData,
         list:window.contentsData // public/db/exampleData.js 
       }; 
-      
       this.handleReorder = this.handleReorder.bind(this);
       this.sortOn = this.sortOn.bind(this);
     }
