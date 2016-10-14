@@ -18,9 +18,11 @@
   },
   "homepage": "https://github.com/seaturtles/seaturtles#readme",
   "dependencies": {
+    "axios": "^0.15.0",
     "babel-preset-react": "^6.16.0",
     "body-parser": "^1.15.2",
     "bootstrap": "^3.3.7",
+    "ejs": "^2.5.2",
     "express": "^4.14.0",
     "mongoose": "^4.6.3",
     "react": "^15.3.2",
