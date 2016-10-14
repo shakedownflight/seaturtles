@@ -4,6 +4,7 @@ import React from 'react';
 import List from './List';
 import Contents from './Contents';
 import Navi from './Navi';
+import Login from './Login';
 // import contentsData  from './../../public/db/contentsData';
 // import { Nav } from 'react-bootstrap';
 import { Pager, ListGroup, ListGroupItem, Navbar, Nav } from 'react-bootstrap';
@@ -68,6 +69,7 @@ class App extends React.Component {
         return (
           <div>
               <div><Pager.Item previous href="#"> &larr; Previous Page</Pager.Item > 엄빠주의 </div>
+              <Login/>
               <List onReorder= {this.handleReorder}/>
               <Contents source= {this.state.list} onReorder = {this.handleReorder}/>
               <Navi/>
