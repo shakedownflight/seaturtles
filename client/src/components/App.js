@@ -1,3 +1,4 @@
+import axios from 'axios';
 import React from 'react';
 //import Header from './Header';
 import List from './List';
@@ -11,15 +12,44 @@ class App extends React.Component {
    constructor(props) {   
       super(props);                //---> props를 React.Component에 전달한다.   
       this.state = {
-        head:window.headData,
-        list:window.contentsData // public/db/exampleData.js 
-      }; 
+        list:[
+          {
+            name: "",
+            photo: "",
+            good:"",
+            bad:"",
+            price:"",
+            important:""
+          }
+        ] // public/db/exampleData.js 
+      };
+      // axios.get('/datas')
+      //   .then( response => {
+      //     console.log("axios success");
+      //     console.log("success data", response);
+      //     this.setState({list: response});
+      //   }) // SUCCESS
       this.handleReorder = this.handleReorder.bind(this);
       this.sortOn = this.sortOn.bind(this);
-    }
+    };
+    componentWillMount(){
+    };
     componentDidMount(){
       this.handleReorder();
-    }
+      $.ajax({
+        url: '/datas',
+        type:'GET',
+        success: function(data) {
+          this.setState({list: data});
+        }.bind(this)
+      });
+      // axios.get('/datas')
+      //   .then( response => {
+      //     console.log("axios success");
+      //     console.log("success data", response);
+      //     this.setState({list: response});
+      //   })// SUCCESS
+    };
     sortOn(arr,key){
         arr.sort(function(a,b){
           if(a[key]<b[key]){
@@ -34,8 +64,7 @@ class App extends React.Component {
       var reorderedData = this.sortOn(window.contentsData, key); //새로 정렬한 data. this.state.list는 못 가져옴 
       this.setState({ list: reorderedData });
     }
-    render(){ 
-        console.log("!!!!!", this.state.list);
+    render(){
         return (
           <div>
               <div><Pager.Item previous href="#"> &larr; Previous Page</Pager.Item > 엄빠주의 </div>
