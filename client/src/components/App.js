@@ -1,4 +1,4 @@
-import axios from 'axios';
+//import axios from 'axios';
 import React from 'react';
 //import Header from './Header';
 import List from './List';
@@ -37,20 +37,10 @@ class App extends React.Component {
     };
     componentDidMount(){
       this.handleReorder();
-      $.ajax({
-        url: '/datas',
-        type:'GET',
-        success: function(data) {
-          this.setState({list: data});
-        }.bind(this)
-      });
-      // axios.get('/datas')
-      //   .then( response => {
-      //     console.log("axios success");
-      //     console.log("success data", response);
-      //     this.setState({list: response});
-      //   })// SUCCESS
+
+
     };
+
     sortOn(arr,key){
         arr.sort(function(a,b){
           if(a[key]<b[key]){

@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 import GoogleLogin from 'react-google-login';
 import $ from 'jquery';
  
@@ -75,6 +76,7 @@ export default Login;
 //     return (
 //       <div>
 //         <GoogleLogin clientId="448333283053-4j6292rub35isemkloo4g8233jlj5lbp.apps.googleusercontent.com"
+
 //                      class="google-login"
 //                      scope="profile"
 //                      responseHandler={this.responseGoogle}
@@ -82,7 +84,5 @@ export default Login;
 //       </div>
 //     );
 //   }
- 
-// }
- 
+
 // export default Login;
