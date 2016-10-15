@@ -20,7 +20,21 @@ class App extends React.Component {
     }
     componentDidMount(){
       this.handleReorder();
+      // this.toggleButton();
+      
     }
+    // toggleButton () {
+    //   alert("helloworld")
+    //   if(sessionStorage.) {
+    //     alert("status: logout")
+    //   }
+    // }
+
+    // logout () {
+
+    // }
+
+
     sortOn(arr,key){
         arr.sort(function(a,b){
           if(a[key]<b[key]){
@@ -39,7 +53,7 @@ class App extends React.Component {
         console.log("!!!!!", this.state.list);
         return (
           <div>
-              <div><Pager.Item previous href="#"> &larr; Previous Page</Pager.Item > 엄빠주의 </div>
+              <div><Pager.Item previous href="#"> &larr; Previous Page</Pager.Item> 엄빠주의 </div>
               <Login/>
               <List onReorder= {this.handleReorder}/>
               <Contents source= {this.state.list} onReorder = {this.handleReorder}/>

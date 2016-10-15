@@ -1,5 +1,66 @@
 var express = require('express');
 var mongoose = require('mongoose');
+var passport = require('passport');
+var GoogleStrategy = require('passport-google-oauth').OAuth2Strategy;
+var auth = require('./auth');
+ 
+// passport.use(new GoogleStrategy({
+//     clientID: "717328947231-hjs9934s99qo7giuvpb7vg3rthb3lsao.apps.googleusercontent.com";,
+//     clientSecret: "-iFt_hOMh3pWPHI226mY-73l",
+//     callbackURL: "http://localhost:7777/auth/google/callback"
+//   },
+//   function(accessToken, refreshToken, profile, done) {
+//        if (clientID === "717328947231-hjs9934s99qo7giuvpb7vg3rthb3lsao.apps.googleusercontent.com" && clientSecret === "-iFt_hOMh3pWPHI226mY-73l") {
+//        	var user = {id: 'user_1'};
+//           return done(null, user);
+//         } else {
+//           return done(null, false, { message: 'Fail to login.' });
+//         }
+//        }
+//        // User.findOrCreate({ googleId: profile.id }, function (err, user) {
+//        //   return done(err, user);
+//        // });
+//   }
+// ));
+
+// require('./passport').setup();
+
+// var router = express.Router();
+
+// // 로그인 라우팅 POST /login
+// router.post('/', function(req, res, next) {
+
+//   //  패스포트 모듈로 인증 시도
+//   passport.authenticate('local', function (err, user, info) {
+//     var error = err || info;
+//     if (error) return res.json(401, error);
+//     if (!user) return res.json(404, {message: 'Something went wrong, please try again.'});
+
+//     // 인증된 유저 정보로 응답
+//     res.json(req.user);
+//   })(req, res, next);
+// });
+
+// passport.use(new GoogleStrategy({
+//     clientID: "717328947231-hjs9934s99qo7giuvpb7vg3rthb3lsao.apps.googleusercontent.com",
+//     clientSecret: "-iFt_hOMh3pWPHI226mY-73l",
+//     callbackURL: "http://localhost:7777/auth/google/callback"
+//   },
+//   function(token, tokenSecret, profile, done) {
+//     Account.findOne({ domain: 'google.com', uid: profile.id }, function(err, account) {
+//       if (err) { return done(err); }
+//       if (account) { return done(null, account); }
+
+//       var account = new Account();
+//       account.domain = 'google.com';
+//       account.uid = profile.id;
+//       var t = { kind: 'oauth', token: token, attributes: { tokenSecret: tokenSecret } };
+//       account.tokens.push(t);
+//       return done(null, account);
+//       console.log("success")
+//     });
+//   }
+// ));
 
 // mongoDB connection
 var db = mongoose.connection;
