@@ -18,12 +18,13 @@
   },
   "homepage": "https://github.com/seaturtles/seaturtles#readme",
   "dependencies": {
+    "axios": "^0.15.0",
     "babel-preset-react": "^6.16.0",
     "body-parser": "^1.15.2",
     "bootstrap": "^3.3.7",
+    "ejs": "^2.5.2",
     "express": "^4.14.0",
-    "express-session": "^1.14.1",
-    "googleapis": "^14.0.0",
+
     "jquery": "^3.1.1",
     "mongoose": "^4.6.3",
     "passport": "^0.3.2",
@@ -32,6 +33,7 @@
     "react-dom": "^15.3.2",
     "react-google-login": "^2.5.2",
     "react-google-login-component": "^0.5.2",
+
     "react-scrollspy": "^2.3.1"
   },
   "devDependencies": {
