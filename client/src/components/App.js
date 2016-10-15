@@ -22,7 +22,7 @@ class App extends React.Component {
             price:"",
             important:""
           }
-        ] // public/db/exampleData.js 
+        ] // public/db/exampleData.js
       };
       // axios.get('/datas')
       //   .then( response => {
